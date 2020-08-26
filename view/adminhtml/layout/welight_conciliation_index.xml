@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <head>
+        <title>welight</title>
+        <meta name="viewport" content="width=1024, initial-scale=1"/>
+        <css src="WE_welight::css/dataTables.min.css"/>
+        <css src="WE_welight::css/styles.css"/>
+    </head>
+    <body>
+        <referenceContainer name="content">
+            <block class="Magento\Backend\Block\Template"
+                   name="adminhtml.block.welight.conciliation.header"
+                   template="WE_welight::conciliation/header.phtml"/>
+        </referenceContainer>
+        <referenceContainer name="content">
+            <block class="Magento\Backend\Block\Template"
+                   name="adminhtml.block.welight.conciliation.buttons"
+                   template="WE_welight::conciliation/toolbar/buttons.phtml"
+                   cacheable="false" />
+        </referenceContainer>
+        <referenceContainer name="content">
+            <block class="Magento\Backend\Block\Template"
+                   name="adminhtml.block.welight.conciliation.content"
+                   template="WE_welight::conciliation/content.phtml" />
+        </referenceContainer>
+    </body>
+</page>

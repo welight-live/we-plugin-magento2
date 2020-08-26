@@ -1,0 +1,369 @@
+#payment-method-welight button {
+    overflow: visible;
+}
+#payment-method-welight button,
+#payment-method-welight select {
+    text-transform: none;
+}
+#payment-method-welight button {
+    -webkit-appearance: button;
+    cursor: pointer;
+}
+#payment-method-welight button::-moz-focus-inner,
+#payment-method-welight input::-moz-focus-inner {
+    border: 0;
+    padding: 0;
+}
+#payment-method-welight input {
+    line-height: normal;
+}
+#payment-method-welight input[type="radio"] {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0;
+}
+#payment-method-welight .row {
+    margin-left: -15px;
+    margin-right: -15px;
+}
+#payment-method-welight .col-sm-2, #payment-method-welight .col-sm-5, #payment-method-welight .col-sm-6, #payment-method-welight .col-md-8, #payment-method-welight .col-sm-10, #payment-method-welight .col-xs-12 {
+    position: relative;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+#payment-method-welight .col-xs-12 {
+    float: left;
+}
+#payment-method-welight .col-xs-12 {
+    width: 100%;
+}
+@media (min-width: 768px) {
+    #payment-method-welight .col-sm-2, #payment-method-welight .col-sm-5, #payment-method-welight .col-sm-6, #payment-method-welight .col-sm-10 {
+        float: left;
+    }
+    #payment-method-welight .col-sm-10 {
+        width: 83.33333333%;
+    }
+    #payment-method-welight .col-sm-6 {
+        width: 50%;
+    }
+    #payment-method-welight .col-sm-5 {
+        width: 41.66666667%;
+    }
+    #payment-method-welight .col-sm-2 {
+        width: 16.66666667%;
+    }
+    #payment-method-welight .col-sm-offset-1 {
+        margin-left: 8.33333333%;
+    }
+}
+@media (min-width: 992px) {
+    #payment-method-welight .col-md-8 {
+        float: left;
+    }
+    #payment-method-welight .col-md-8 {
+        width: 66.66666667%;
+    }
+    #payment-method-welight .col-md-offset-2 {
+        margin-left: 16.66666667%;
+    }
+}
+#payment-method-welight label {
+    display: inline-block;
+    max-width: 100%;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+#payment-method-welight input[type="radio"] {
+    margin: 4px 0 0;
+    margin-top: 1px \9;
+    line-height: normal;
+}
+#payment-method-welight input[type="radio"]:focus {
+    outline: 5px auto -webkit-focus-ring-color;
+    outline-offset: -2px;
+}
+#payment-method-welight input[type="text"],
+#payment-method-welight .form-control {
+    display: block;
+    width: 100%;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555555;
+    background-color: #ffffff;
+    background-image: none;
+    border: 1px solid #cccccc;
+    /*border-radius: 4px;*/
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+    -webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+}
+#payment-method-welight select {
+    -webkit-appearance: menulist;
+    -moz-appearance: menulist;
+    appearance: menulist;
+}
+#payment-method-welight .form-control:focus {
+    border-color: #66afe9;
+    outline: 0;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(102, 175, 233, 0.6);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(102, 175, 233, 0.6);
+}
+#payment-method-welight .form-control::-moz-placeholder {
+    color: #999999;
+    opacity: 1;
+}
+#payment-method-welight .form-control:-ms-input-placeholder {
+    color: #999999;
+}
+#payment-method-welight .form-control::-webkit-input-placeholder {
+    color: #999999;
+}
+#payment-method-welight .form-control::-ms-expand {
+    border: 0;
+    background-color: transparent;
+}
+#payment-method-welight .form-group {
+    margin-bottom: 15px;
+}
+#payment-method-welight .radio {
+    position: relative;
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#payment-method-welight .radio input[type="radio"] {
+    position: absolute;
+    margin-left: -20px;
+    margin-top: 4px \9;
+}
+#payment-method-welight .radio + .radio {
+    margin-top: -5px;
+}
+#payment-method-welight .help-block {
+    display: block;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    color: #737373;
+}
+#payment-method-welight .form-horizontal .radio {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 7px;
+}
+#payment-method-welight .form-horizontal .radio {
+    min-height: 27px;
+}
+#payment-method-welight .form-horizontal .form-group {
+    margin-left: -15px;
+    margin-right: -15px;
+}
+@media (min-width: 768px) {
+    #payment-method-welight .form-horizontal .control-label {
+        text-align: right;
+        margin-bottom: 0;
+        padding-top: 7px;
+    }
+}
+#payment-method-welight .clearfix:before,
+#payment-method-welight .clearfix:after,
+#payment-method-welight .row:before,
+#payment-method-welight .row:after,
+#payment-method-welight .form-horizontal .form-group:before,
+#payment-method-welight .form-horizontal .form-group:after {
+    content: " ";
+    display: table;
+}
+#payment-method-welight .clearfix:after,
+#payment-method-welight .row:after,
+#payment-method-welight .form-horizontal .form-group:after {
+    clear: both;
+}
+#payment-method-welight *,
+#payment-method-welight *::before,
+#payment-method-welight *::after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+#payment-method-welight .tabs-welight {
+    width: 100%;
+}
+#payment-method-welight .tabs-welight > .items {
+    width: 100%;
+}
+#payment-method-welight .tabs-welight > .items > .item {
+    position: relative;
+    float: left;
+    width: 33.33%;
+    /* borders */
+    border-color: #827e7e;
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+}
+@media (max-width: 767px) {
+    #payment-method-welight .tabs-welight > .items > .item {
+        height: 125px;
+    }
+}
+#payment-method-welight .tabs-welight > .items > .item:first-child {
+    border-left-style: solid;
+    border-left-width: 1.5px;
+}
+#payment-method-welight .tabs-welight > .items > .item:nth-child(2) {
+    border-left-style: solid;
+    border-left-width: 1.5px;
+    border-right-style: solid;
+    border-right-width: 1.5px;
+}
+#payment-method-welight .tabs-welight > .items > .item:last-child {
+    border-right-style: solid;
+    border-right-width: 1.5px;
+}
+#payment-method-welight .tabs-welight > .items > .item.--active > .action {
+    color: #FFF;
+    background-color: #4F7743;
+}
+#payment-method-welight .tabs-welight > .items > .item.--active > .action::after {
+    bottom: -15px;
+    /* subtract the height unit this element */
+    opacity: 1;
+    border-top-color: #4F7743;
+    -webkit-transition-duration: .25s;
+    -moz-transition-duration: .25s;
+    transition-duration: .25s;
+}
+#payment-method-welight .tabs-welight > .items > .item > .action {
+    padding: .75em 1em;
+    height: 100%;
+}
+#payment-method-welight .tabs-welight > .items > .item > .action::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 0px;
+    height: 0px;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-top: 15px solid #827e7e;
+    /* style of animation */
+    opacity: 0;
+    bottom: -5px;
+    -webkit-transition: all linear;
+    -moz-transition: all linear;
+    transition: all linear;
+    -webkit-transition-duration: 0s;
+    -moz-transition-duration: 0s;
+    transition-duration: 0s;
+}
+#payment-method-welight .tabs-welight > .items > .item > .action,
+#payment-method-welight .btn-welight {
+    text-align: center;
+    display: block;
+    background-color: transparent;
+    -webkit-transition: all 0.25s linear;
+    -moz-transition: all 0.25s linear;
+    transition: all 0.25s linear;
+}
+#payment-method-welight .tabs-welight > .items > .item > .action {
+    color: #827e7e;
+}
+#payment-method-welight .tabs-welight > .items > .item > .action:hover,
+#payment-method-welight .tabs-welight > .items > .item > .action:focus {
+    text-decoration: none;
+}
+#payment-method-welight .tabs-welight > .items > .item > .action:hover,
+#payment-method-welight .tabs-welight > .items > .item > .action:focus,
+#payment-method-welight .btn-welight:hover,
+#payment-method-welight .btn-welight:focus {
+    color: #FFF;
+    background-color: #4F7743;
+}
+#payment-method-welight .tabs-welight > .items > .item > .action > .fa {
+    display: block;
+}
+#payment-method-welight .tabs-welight > .items > .item > .action > .name {
+    display: block;
+    margin-top: .5em;
+}
+#payment-method-welight .tabs-content {
+    padding: 1em;
+}
+#payment-method-welight .title-tab {
+    margin-bottom: 1em;
+}
+#payment-method-welight .tabs-content > .item-tab {
+    /* active tab current */
+    display: none;
+    width: 100%;
+}
+#payment-method-welight .tabs-content > .item-tab.--current {
+    display: block;
+}
+#payment-method-welight button:not(.primary),
+#payment-method-welight .btn-welight {
+    color: #4F7743;
+    font-size: 1.2em;
+    white-space: nowrap;
+    vertical-align: middle;
+    outline: inherit;
+    cursor: pointer;
+    padding: 1em 2em;
+    background: none;
+    background-image: none;
+    border: 1px solid #4F7743;
+    border-radius: 0px;
+    /* fix native magento style - box-shadow */
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+}
+#payment-method-welight .btn-welight.--align-right {
+    float: right;
+    margin-top: 1.5em;
+}
+#payment-method-welight .btn-welight:hover,
+#payment-method-welight .btn-welight:focus {
+    /* fix native magento style - border hover button */
+    border: 1px solid #4F7743;
+}
+#payment-method-welight .list-warning {
+    display: block;
+    margin-top: 2em;
+    width: 100%;
+}
+#payment-method-welight .credit-total > .control-label {
+    font-size: 1.4em;
+}
+#payment-method-welight .credit-total > div > span {
+    font-size: 1.15em;
+    line-height: 34px;
+    display: block;
+    padding-top: 5px;
+    /* diferece font-size value at label */
+}
+@media (max-width: 767px) {
+    #payment-method-welight {
+        /* form inline custom config */
+    }
+    #payment-method-welight .form-inline-childs > div {
+        margin-bottom: 15px;
+    }
+}
+#payment-method-welight .display-none {
+    display: none;
+}

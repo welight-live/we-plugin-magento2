@@ -1,0 +1,67 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * 2007-2017 [welight Internet Ltda.]
+ *
+ * NOTICE OF LICENSE
+ *
+ *Licensed under the Apache License, Version 2.0 (the "License");
+ *you may not use this file except in compliance with the License.
+ *You may obtain a copy of the License at
+ *
+ *http://www.apache.org/licenses/LICENSE-2.0
+ *
+ *Unless required by applicable law or agreed to in writing, software
+ *distributed under the License is distributed on an "AS IS" BASIS,
+ *WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ *See the License for the specific language governing permissions and
+ *limitations under the License.
+ *
+ *  @author    welight Internet Ltda.
+ *  @copyright 2016 welight Internet Ltda.
+ *  @license   http://www.apache.org/licenses/LICENSE-2.0
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Store:etc/config.xsd">
+    <default>
+        <payment>
+            <welight>
+                <title>welight</title>
+                <active>0</active>
+                <model>UOL\welight\Model\Payment</model>
+                <order_status>welight_iniciado</order_status>
+                <notification>{{base_url}}welight/notification/response</notification>
+                <log_file>var/log/welight.log</log_file>
+                <group>welight</group>
+            </welight>
+            <welight_default_lightbox>
+                <title>welight</title>
+                <active>0</active>
+                <model>UOL\welight\Model\PaymentDefaultlLightbox</model>
+                <order_status>welight_iniciado</order_status>
+                <group>welight</group>
+            </welight_default_lightbox>
+            <welight_boleto>
+                <title>Boleto Bancário</title>
+                <active>0</active>
+                <model>UOL\welight\Model\PaymentBoleto</model>
+                <order_status>welight_iniciado</order_status>
+                <group>welight</group>
+            </welight_boleto>
+            <welight_credit_card>
+                <title>Cartão de Crédito</title>
+                <active>0</active>
+                <model>UOL\welight\Model\PaymentCreditCard</model>
+                <order_status>welight_iniciado</order_status>
+                <group>welight</group>
+            </welight_credit_card>
+            <welight_online_debit>
+                <title>Débito Online</title>
+                <active>0</active>
+                <model>UOL\welight\Model\PaymentOnlineDebit</model>
+                <order_status>welight_iniciado</order_status>
+                <group>welight</group>
+            </welight_online_debit>
+        </payment>
+    </default>
+</config>

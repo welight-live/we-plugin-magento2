@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <head>
+        <title>welight</title>
+        <meta name="viewport" content="width=1024, initial-scale=1"/>
+        <css src="WE_welight::css/dataTables.min.css"/>
+        <css src="WE_welight::css/styles.css"/>
+    </head>
+    <body>
+        <referenceContainer name="content">
+            <block class="Magento\Backend\Block\Template"
+                   name="adminhtml.block.welight.abandoned.error"
+                   template="WE_welight::abandoned/error/active.phtml" />
+        </referenceContainer>
+        <referenceContainer name="content">
+            <block class="Magento\Backend\Block\Template"
+                   name="adminhtml.block.welight.abandoned.header"
+                   template="WE_welight::abandoned/header.phtml"/>
+        </referenceContainer>
+        <referenceContainer name="content">
+            <block class="Magento\Backend\Block\Template"
+                   name="adminhtml.block.welight.conciliation.buttons"
+                   template="WE_welight::abandoned/toolbar/buttons.phtml"/>
+        </referenceContainer>
+        <referenceContainer name="content">
+            <block class="Magento\Backend\Block\Template"
+                   name="adminhtml.block.welight.abandoned.content"
+                   template="WE_welight::abandoned/content.phtml" />
+        </referenceContainer>
+        <referenceContainer name="content">
+            <block class="Magento\Backend\Block\Template"
+                   name="adminhtml.block.welight.abandoned.error.disable"
+                   template="WE_welight::abandoned/error/disable.phtml" />
+        </referenceContainer>
+    </body>
+</page>
